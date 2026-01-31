@@ -1,0 +1,57 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: An Nguyen
+theme: ["PaperMod"]
+
+outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON
+
+params:
+  homeInfoParams:
+    Title: "Welcome to my personal blog 👋"
+    Content: "Hi, my name is An. This is a place I document what I learn about Computer Science (especially A.I/ML). Hope you may find it useful somehow :). If you notice any mistakes in my posts or have suggestions for improvement, please email me. I'd welcome any feedback you have to help me improve!"
+  socialIcons:
+        - name: github
+          url: "https://github.com/DavidNguyen58"
+        - name: email
+          url: "nguyenthienan5804@gmail.com"
+  #cover:
+  #  linkFullImages: true
+  
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  #ShowShareButtons: true
+
+  ShowPostNavLinks: true
+
+menu:
+  main: 
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 5
+
+    #- identifier: categories
+    #  name: categories
+    #  url: /categories/
+    #  weight: 10
+    
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 7
