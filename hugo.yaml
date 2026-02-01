@@ -1,6 +1,6 @@
-baseURL: https://example.org/
+# baseURL: https://example.org/
 languageCode: en-us
-title: An Nguyen
+title: An Nguyen 
 theme: ["PaperMod"]
 
 outputs:
