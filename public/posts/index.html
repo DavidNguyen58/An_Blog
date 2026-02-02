@@ -71,7 +71,17 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script>
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+  onload="renderMathInElement(document.body, {
+    delimiters: [
+      { left: '$$', right: '$$', display: true },
+      { left: '$', right: '$', display: false }
+    ],
+    throwOnError: false
+  });"></script>
+
 </head>
 <body class="list" id="top">
     <header class="header">
@@ -134,56 +144,15 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Third
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
+    <h2 class="entry-hint-parent">Universal Approximation Theorem
     </h2>
   </header>
   <div class="entry-content">
-    <p></p>
+    <p>When I first learnt about Deep Learning, I was always wondering how can these neural networks can perform a wide range of complex tasks. The idea of defining an objective function and then train the neural networks to minimise that seems intuitive to understand about the mechanism but does not justify why it would work. It turns out that when I came across the Universal Approximation Theorem, things get clearer.
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-02-01 09:45:18 +0000 UTC'>February 1, 2026</span>&nbsp;·&nbsp;<span>0 min</span></footer>
-  <a class="entry-link" aria-label="post link to Third" href="//localhost:1313/posts/third/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Second
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p></p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-01 09:45:12 +0000 UTC'>February 1, 2026</span>&nbsp;·&nbsp;<span>0 min</span></footer>
-  <a class="entry-link" aria-label="post link to Second" href="//localhost:1313/posts/second/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">First
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p></p>
-  </div>
-  <footer class="entry-footer"><span title='2026-01-31 08:38:32 +0000 UTC'>January 31, 2026</span>&nbsp;·&nbsp;<span>0 min</span></footer>
-  <a class="entry-link" aria-label="post link to First" href="//localhost:1313/posts/first/"></a>
+  <footer class="entry-footer"><span title='2026-02-02 22:13:40 +0000 UTC'>February 2, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
+  <a class="entry-link" aria-label="post link to Universal Approximation Theorem" href="//localhost:1313/posts/blog1_uat/"></a>
 </article>
     </main>
     

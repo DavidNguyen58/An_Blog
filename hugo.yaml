@@ -28,7 +28,8 @@ params:
   #ShowShareButtons: true
 
   ShowPostNavLinks: true
-
+  
+  math: true
 menu:
   main: 
     - identifier: posts
