@@ -4,8 +4,7 @@ draft: false
 title: 'Universal Approximation Theorem'
 tags: ["Generalisation Theory"]
 ShowToc: true
-TocOpen: false # or true to expand by default
-#categories: ["tech"]
+TocOpen: false 
 ---
 
 When I first learnt about Deep Learning, I was always wondering how can these neural networks can perform a wide range of complex tasks. The idea of defining an objective function and then train the neural networks to minimise that seems intuitive to understand about the mechanism but does not justify why it would work. It turns out that when I came across the Universal Approximation Theorem, things get clearer. 
@@ -37,7 +36,7 @@ Linear → Sigmoid → Hidden (hidden=16) → Linear
 | OPTIMISER | ADAM |
 | LR | 1e-3 |
 
-The source code could be found in [here](URL_PLACEHOLDER)
+The source code could be found in [here](https://github.com/DavidNguyen58/An_Blog/blob/main/source_code/blog1_UAT.ipynb)
 ## Evaluation
 
 After the training, here is the graph to compare between our model approximation and the target function. As we can see, they're very close to each other!
