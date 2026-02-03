@@ -41,13 +41,13 @@ The source code could be found in [here](https://github.com/DavidNguyen58/An_Blo
 
 After the training, here is the graph to compare between our model approximation and the target function. As we can see, they're very close to each other!
 
-![Model approximation vs. target function](/uat_img1.png)
+![Model approximation vs. target function](uat_img1.png)
 
 The loss over time could be seen below
 
 The training and testing loss to a MSE value of 0.000004, which show similarity between two models
 
-![Training and testing loss over epochs](/uat_img2.png)
+![Training and testing loss over epochs](uat_img2.png)
 
 ## Conclusion
 

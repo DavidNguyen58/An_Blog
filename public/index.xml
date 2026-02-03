@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>An Nguyen</title>
-    <link>//localhost:1313/</link>
+    <link>http://localhost:1313/An_Blog/</link>
     <description>Recent content on An Nguyen</description>
     <generator>Hugo -- 0.155.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Feb 2026 22:13:40 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/An_Blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Universal Approximation Theorem</title>
-      <link>//localhost:1313/posts/blog1_uat/</link>
+      <link>http://localhost:1313/An_Blog/posts/blog1_uat/</link>
       <pubDate>Mon, 02 Feb 2026 22:13:40 +0000</pubDate>
-      <guid>//localhost:1313/posts/blog1_uat/</guid>
+      <guid>http://localhost:1313/An_Blog/posts/blog1_uat/</guid>
       <description>&lt;p&gt;When I first learnt about Deep Learning, I was always wondering how can these neural networks can perform a wide range of complex tasks. The idea of defining an objective function and then train the neural networks to minimise that seems intuitive to understand about the mechanism but does not justify why it would work. It turns out that when I came across the Universal Approximation Theorem, things get clearer.&lt;/p&gt;</description>
     </item>
   </channel>
