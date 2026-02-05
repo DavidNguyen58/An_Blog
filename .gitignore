@@ -1,1 +1,43 @@
+# --------------------------------------------------
+# Hugo
+# --------------------------------------------------
+
+# Default Hugo output (unused)
+public/
+
+# Hugo Pipes / cache
+resources/_gen/
+.hugo_cache/
+.hugo_build.lock
+
+# --------------------------------------------------
+# Node / frontend tooling (if used)
+# --------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --------------------------------------------------
+# Logs & temp files
+# --------------------------------------------------
+*.log
+*.tmp
+*.seed
+*.pid
+pids/
+
+# --------------------------------------------------
+# OS / Editor junk
+# --------------------------------------------------
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --------------------------------------------------
+# Apache / secrets
+# --------------------------------------------------
+.htpasswd
+.aws-credentials.json
+.awspublish*
