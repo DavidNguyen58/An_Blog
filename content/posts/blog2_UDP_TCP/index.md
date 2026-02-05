@@ -3,6 +3,8 @@ date: '2026-02-05T18:26:36Z'
 draft: false
 title: 'TCP vs UDP'
 tags: ["Networking", "Network Protocols"]
+ShowToc: true
+TocOpen: false 
 ---
 UDP and TCP two main protocols in the Transport Layer of the OSI and TCP/IP models. Both protocols help applications to communicate with each other, however, they are different mainly in terms of speed, reliability and use cases. We will explore the basic ideas behind each protocol and their use cases.
 
